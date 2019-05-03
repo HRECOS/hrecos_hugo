@@ -1,18 +1,18 @@
 baseURL = "https://hrecos2.netlify.com/"
 languageCode = "en-us"
-title = "Hugo Serif Theme"
+title = "HRECOS"
 theme = "hugo-serif-theme"
 
 [params]
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "Serif is a beautiful small business theme for Hugo (Static Site Generator). It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated."
-    meta_og_title = "Hugo Serif Theme"
+    meta_description = "Hudson River Environmental Conditions Observation System"
+    meta_og_title = "HRECOS"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-serif.netlify.com"
+    meta_og_url = "https://hrecos2.netlify.com"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
-    meta_og_description = "Serif is a beautiful small business theme for Hugo (Static Site Generator). It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated."
+    meta_og_description = "Hudson River Environmental Conditions Observation System"
     meta_twitter_card = "summary"
     meta_twitter_site = "@zerostaticio"
     meta_twitter_creator = "@zerostaticio"
@@ -36,3 +36,5 @@ theme = "hugo-serif-theme"
     name = "Contact"
     url = "/contact/"
     weight = 4
+    
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
